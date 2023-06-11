@@ -99,7 +99,7 @@ nav ul li a:hover{
 .gallery iframe:hover{
     width: 350px;
     height: 300px;
-    transition: scale(0.6s);
+    transition: scale(0.10s);
     box-shadow: 3px 5px 6px 4px white;
     margin: 10px;
 }

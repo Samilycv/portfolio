@@ -1,0 +1,187 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Oswald', sans-serif;
+}
+.nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(96, 92, 145);
+    position: sticky;
+    top:0
+}
+nav ul{
+    display: flex;
+    margin: 20px;
+    list-style: none;
+}
+nav ul li{
+    font-size: 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    padding: 40px;
+    color: white;
+}
+nav ul li a:hover{
+    color: rgb(3, 3, 53);
+    text-shadow: 2px 5px 8px white;
+}
+#home{
+    display: flex;
+    flex-direction: column;
+    height: 850px;
+}
+#home::before{
+    content: '';
+    position: absolute;
+    background-image: url(https://images.news18.com/ibnlive/uploads/2019/04/Sachin-Tendulkar-PTI.jpg);
+    background-size: cover;
+    height: 800px;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.8;
+}
+.heading{
+    text-align: center;
+    margin: 20px;
+    color: rgb(34, 34, 78);
+    font-size: 40px;
+}
+/* about */
+#about{
+    display: flex;
+    flex-direction:column;
+    padding: 20px;
+    margin-bottom: 50px;
+    background-color: rgb(139, 132, 145);
+}
+.pic{
+    display: flex;
+}
+.pic img{
+    width: 500px;
+    height: 300px;
+}
+.pic img:hover{
+    width: 400px;
+    height: 380px;
+    transition: .6s;
+    box-shadow: 3px 5px 6px 4px white;
+    border-radius: 50px;
+    margin: 10px;
+
+}
+.intro{
+    display: flex;
+    flex-direction: column;
+    text-align:justify;
+}
+#video{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(139, 132, 145);
+    align-items: center;
+    padding: 20px;
+}
+.gallery{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.gallery iframe{
+    width: 300px;
+    height: 250px;
+    margin: 10px;
+    transform: scale(0.5s);
+}
+.gallery iframe:hover{
+    width: 350px;
+    height: 300px;
+    transition: .6s;
+    box-shadow: 3px 5px 6px 4px white;
+    margin: 10px;
+}
+#career{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    background-color:rgb(139, 132, 145);
+    align-items: center;
+    margin-top: 50px;
+}
+.row{
+    display: flex;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    width: 100px;
+    height: 150px;
+    border: 4px ridge rgb(1, 4, 20);
+    margin: 10px;
+    padding: 20px;
+    text-align: justify;
+    border-radius: 20px;
+    background-size: 100% 200%;
+    transition: all 0.8s;
+}
+.box:hover{
+    background-position: left bottom;
+    color: rgba(65, 5, 177, 0.555);
+    border: none;
+}
+#works{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(139, 132, 145);
+    align-items: center;
+    padding: 20px;
+    margin-top: 50px;
+}
+.charity{
+    display: flex;
+    flex-wrap: wrap;
+}
+.charity p{
+    display: flex;
+    flex-direction:column;
+    padding: 20px;
+    margin-bottom: 50px;
+    background-color: rgb(139, 132, 145);
+}
+.charity p:hover{
+    background-position: left bottom;
+    color: rgba(65, 5, 177, 0.555);
+    border: none;
+}
+.charity img{
+    width: 300px;
+    height: 250px;
+    margin: 10px;
+    border-radius: 50px;
+}
+#contact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(139, 132, 145);
+    margin-top: 50px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.input{
+    padding: 10px;
+    margin: 20px;
+}
+.send{
+    padding: 15px 20px;
+}
+.send:hover{
+    color:white;
+    background-color: rgb(71, 56, 90);
+}
